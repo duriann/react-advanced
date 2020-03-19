@@ -3,14 +3,22 @@ import React from 'react';
 // import Test from './higher-order-component'
 // import Test from './optimizing-performance'
 // import TestComponent from './React.Component'
-import {Counter,Counters} from './hooks/useState/index'
+// import {Counter,Counters} from './hooks/useState/index'
+// import {TestUseEffect} from './hooks/useEffect/index'
+// import {TestUseReducer} from './hooks/useReducer/index'
+import TestCustomHooks from './hooks/custom-hooks/index'
 
 function App() {
   return (
     <div className="App">
-      <Counter initialCount={0} />
+
+      {/* <Counter initialCount={0} />
       <hr/>
-      <Counters initialCount={[0]}></Counters>
+      <Counters initialCount={[0]}></Counters> */}
+
+      {/* <TestUseEffect count={1}></TestUseEffect> */}
+      {/* <TestUseReducer></TestUseReducer> */}
+      <TestCustomHooks></TestCustomHooks>
     </div>
   );
 }

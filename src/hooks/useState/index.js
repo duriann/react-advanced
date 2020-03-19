@@ -31,7 +31,7 @@ function Counters({initialCount}){
         // let res = (count.splice(count.length-1,1),count)
         // console.log('res',res)
         //这里需要返回一个新的数组
-        return count.slice(0,count.length-1)
+        return count.slice(0,-1)
       })}>-</button>
     </>
   )
